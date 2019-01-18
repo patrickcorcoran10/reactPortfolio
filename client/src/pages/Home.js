@@ -26,6 +26,8 @@ const About = () => (
           </p>
           <p>---</p>
           <div id="initials"><h3>Pat Corcoran</h3></div><br/>
+          {/* <p>
+            It wasn't long before Eric started to hunger for more technical education on the topic.  In May of 2018, Eric enrolled in the School of Professional Studies at Chicago's Northwestern University in the school's Full-Stack Web Development curricula.  Eric graduated from the program in November of 2018.</p><p id="bottom-p">---</p><br/><br/> */}
           </div>
           
          
@@ -47,7 +49,7 @@ const About = () => (
         <a href="/contact"><div className="overlay-2"><div class="text">Contact</div></div></a>      </div>
       <div className="container-3 col-md-4">
         <img src="grad.jpg" alt="resume"/>
-        <a href="/resume.pdf" download><div className="overlay-3"><div class="text">Resume</div></div></a>  </div></div>
+        <a href="/resume2019.pdf" download><div className="overlay-3"><div class="text">Resume</div></div></a>  </div></div>
     </Container>
   </div>
 );
