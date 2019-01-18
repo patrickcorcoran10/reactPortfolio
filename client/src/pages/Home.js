@@ -19,10 +19,10 @@ const About = () => (
         <Col size="md-10">
         <div className="card">
         <h2>Welcome...</h2><br/>
-          <p>
-            With Full-Stack Certification from Northwestern University in Chicago, IL, Eric is excited to showcase his abilities through this site as he goes about his search for exciting employment opportunities in development.</p><p>The most coveted place of employment for Eric would be one that offers both engaging projects for him to help build out, and the chance for him to grow individually into an even more skilled developer.   
-          </p>
-            <p>That said, please don't hesitate to look around -- do reach out with any questions/comments.  Thanks for visiting!
+            <p>Blazing a path in the world of web development, Pat is excited to bring his coding abilities, well-rounded perspective, and strong team-building expertise to table for an exciting career opportunity.</p>
+            <p>This site is a showcase of some of the projects I've built either through the Northwestern University Full-Stack course or through my own web development interests. </p>
+          {/* <p>With Full-Stack Certification from Northwestern University in Chicago, IL, Eric is excited to showcase his abilities through this site as he goes about his search for exciting employment opportunities in development.</p><p>The most coveted place of employment for Eric would be one that offers both engaging projects for him to help build out, and the chance for him to grow individually into an even more skilled developer.</p> */}
+            <p>Please have a look around and use the comment page to reach me if you have any questions.  Thanks for visiting!
           </p>
           <p>---</p>
           <div id="initials"><h3>Pat Corcoran</h3></div><br/>

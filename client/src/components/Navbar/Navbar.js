@@ -64,7 +64,7 @@ class Navbar extends Component {
    </div>
    <div className="sidenav-div">
         <div className="navbar-brand">
-        <img src="toggle.png" alt="toggle" id="toggle" onClick={this.openNav}/><a id="eKorslin" href="/">{'  '} e.Korslin</a>
+        <img src="toggle.png" alt="toggle" id="toggle" onClick={this.openNav}/><a id="pCorcoran" href="/">{'  '} Pat Corcoran</a>
         </div>
       <div id="mySidenav" className="sidenav">
         <button className="closebtn" onClick={this.closeNav}>&times;</button>
