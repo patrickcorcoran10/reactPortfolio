@@ -12,8 +12,8 @@ class Portfolio extends Component {
                     <div class="col-md-4">
                         <div class="card card-profile">
                             <div class="card-image">
-                                <img class="img" src="bryant.jpg" alt=""/>
-                                    <div class="card-caption"> Cubs Talk! </div>
+                                <img class="img" src="illinois.png" alt=""/>
+                                    <div class="card-caption"> Illinois Politics Scrape </div>
                             </div>
                             <div class="table">
                                 <h6>Cheerio Scrape</h6>
@@ -57,12 +57,12 @@ class Portfolio extends Component {
                     <div class="col-md-4">
                         <div class="card card-profile">
                             <div class="card-image">
-                                <img class="img" src="waiter.jpg" alt=""/>
-                                    <div class="card-caption"> What's for Dinner? </div>
+                                <img class="img" src="white-sox-team.jpg" alt=""/>
+                                    <div class="card-caption"> Chicago White Sox Pick-to-Click Game </div>
                             </div>
                             <div class="table">
-                                <h6>Yelp! API</h6>
-                                <p class="card-description"> Taps into the Yelp! API to arrive at list of suggested restaurants local to user based on craving considerations.</p>
+                                <h6>React.js</h6>
+                                <p class="card-description"> Simple game written in react.js. Uses props and state to generate a game with the Chicago White Sox 2018 roster.</p>
                                 <a href="https://lit-stream-91450.herokuapp.com/"><button className="btn-info-2">V I E W</button></a> 
                             </div>
                         </div>

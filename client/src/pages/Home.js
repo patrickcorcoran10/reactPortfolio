@@ -43,7 +43,7 @@ const About = () => (
         <a href="/contact"><div className="overlay-2"><div class="text">Contact</div></div></a>      </div>
       <div className="container-3 col-md-4">
         <img src="resumeImage.jpeg" alt="resume"/>
-        <a href="/resume2019.pdf" download><div className="overlay-3"><div class="text">Resume</div></div></a>  </div></div>
+        <a href="/pcwebdevResume.pdf" download><div className="overlay-3"><div class="text">Resume</div></div></a>  </div></div>
     </Container>
   </div>
 );
