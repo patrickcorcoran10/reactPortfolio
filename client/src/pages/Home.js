@@ -7,7 +7,7 @@ import Col from "../components/Col";
 
 const About = () => (
   <div>
-    <Hero backgroundImage="./desk.jpg">
+    <Hero backgroundImage="./backgroundImage.jpeg">
       <h1>Pat Corcoran</h1>
       <h5>Full-Stack Web Developer</h5><br/>
       <a href="/portfolio" ><button className="btn info">P O R T F O L I O</button></a>
@@ -21,13 +21,10 @@ const About = () => (
         <h2>Welcome...</h2><br/>
             <p>Blazing a path in the world of web development, Pat is excited to bring his coding abilities, well-rounded perspective, and strong team-building expertise to table for an exciting career opportunity.</p>
             <p>This site is a showcase of some of the projects I've built either through the Northwestern University Full-Stack course or through my own web development interests. </p>
-          {/* <p>With Full-Stack Certification from Northwestern University in Chicago, IL, Eric is excited to showcase his abilities through this site as he goes about his search for exciting employment opportunities in development.</p><p>The most coveted place of employment for Eric would be one that offers both engaging projects for him to help build out, and the chance for him to grow individually into an even more skilled developer.</p> */}
             <p>Please have a look around and use the comment page to reach me if you have any questions.  Thanks for visiting!
           </p>
           <p>---</p>
           <div id="initials"><h3>Pat Corcoran</h3></div><br/>
-          {/* <p>
-            It wasn't long before Eric started to hunger for more technical education on the topic.  In May of 2018, Eric enrolled in the School of Professional Studies at Chicago's Northwestern University in the school's Full-Stack Web Development curricula.  Eric graduated from the program in November of 2018.</p><p id="bottom-p">---</p><br/><br/> */}
           </div>
           
          
@@ -38,17 +35,14 @@ const About = () => (
     
       <div className="row">
       <div className="container-1 col-md-4">
-          <img src="view.jpeg" alt="view"/>
+          <img src="portfolio.jpeg" alt="view"/>
           <a href="/portfolio"><div className="overlay-1"><div class="text">Portfolio</div></div></a>
       </div>
-      {/* <div className="col-md-4">
-      <img src="phone.jpg" alt="contact"/>
-      </div> */}
       <div className="container-2 col-md-4">
-        <img src="phone.jpg" alt="resume"/>
+        <img src="email.jpeg" alt="resume"/>
         <a href="/contact"><div className="overlay-2"><div class="text">Contact</div></div></a>      </div>
       <div className="container-3 col-md-4">
-        <img src="grad.jpg" alt="resume"/>
+        <img src="resumeImage.jpeg" alt="resume"/>
         <a href="/resume2019.pdf" download><div className="overlay-3"><div class="text">Resume</div></div></a>  </div></div>
     </Container>
   </div>
