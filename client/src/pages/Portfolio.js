@@ -17,7 +17,7 @@ class Portfolio extends Component {
                             </div>
                             <div class="table">
                                 <h6>Cheerio Scrape</h6>
-                                <p class="card-description"> Heroku-deployed application allows users to stay current on all Chicago Cub-related headlines.</p>
+                                <p class="card-description"> Heroku-deployed application allows users to stay up-to-date with the current political reporting in Springfield and Chicago.</p>
                                 <a href="https://secure-garden-47540.herokuapp.com/"><button className="btn-info-2">V I E W</button></a> 
                             </div>
                         </div>
@@ -30,7 +30,7 @@ class Portfolio extends Component {
                             </div>
                             <div class="table">
                                 <h6>React.JS</h6>
-                                <p class="card-description"> Enhanced Full-Stack app now allows potential golfers to book tee-times thorugh the site. </p>
+                                <p class="card-description"> Enhanced Full-Stack app now allows potential golfers to book tee-times through the site. </p>
                                 <a href="https://morning-coast-79159.herokuapp.com/"><button className="btn-info-2">V I E W</button></a> 
                             </div>
                         </div>
@@ -76,7 +76,7 @@ class Portfolio extends Component {
                             <div class="table">
                                 <h6>MySQL w/ Node.JS</h6>
                                 <p class="card-description">Online shop allows customers to buy products, supervisors to manage inventory & Sales Dept. to track sales metrics. </p>
-                                <button class="btn-info-2">V I E W</button> 
+                                <a href="https://patrickcorcoran10.github.io/bamazon/"><button class="btn-info-2">V I E W</button></a>
                             </div>
                         </div>
                     </div>
