@@ -70,7 +70,7 @@ class Portfolio extends Component {
                     <div class="col-md-4">
                         <div class="card card-profile">
                             <div class="card-image">
-                                <img class="img" src="online-shop.png" alt=""/>
+                                <img class="img" src="shoppingCart.png" alt=""/>
                                     <div class="card-caption">Bamazon</div>
                             </div>
                             <div class="table">
