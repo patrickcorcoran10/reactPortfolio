@@ -18,7 +18,7 @@ class Portfolio extends Component {
                             <div class="table">
                                 <h6>Cheerio Scrape</h6>
                                 <p class="card-description"> Heroku-deployed application allows users to stay up-to-date with the current political reporting in Springfield and Chicago.</p>
-                                <a href="https://secure-garden-47540.herokuapp.com/"><button className="btn-info-2">V I E W</button></a> 
+                                <a href="https://floating-island-20938.herokuapp.com"><button className="btn-info-2">V I E W</button></a> 
                             </div>
                         </div>
                     </div>
