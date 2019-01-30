@@ -63,7 +63,7 @@ class Portfolio extends Component {
                             <div class="table">
                                 <h6>React.js</h6>
                                 <p class="card-description"> Simple game written in react.js. Uses props and state to generate a game with the Chicago White Sox 2018 roster.</p>
-                                <a href="https://lit-stream-91450.herokuapp.com/"><button className="btn-info-2">V I E W</button></a> 
+                                <a href="https://sox-pick-to-click.herokuapp.com/"><button className="btn-info-2">V I E W</button></a> 
                             </div>
                         </div>
                     </div>
