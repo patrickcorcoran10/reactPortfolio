@@ -24,26 +24,27 @@ const About = () => (
             <p>Please have a look around and use the comment page to reach me if you have any questions.  Thanks for visiting!
           </p>
           <p>---</p>
-          <div id="initials"><h3>Pat Corcoran</h3></div><br/>
-          </div>
-          
-         
+        <div id="initials"><h3>Pat Corcoran</h3></div><br/>
+        </div>
         </Col>
-       
         <Col size="md-1">
-        </Col></Row><br/><br/>
-    
-      <div className="row">
-      <div className="container-1 col-md-4">
-          <img src="portfolio.jpeg" alt="view"/>
-          <a href="/portfolio"><div className="overlay-1"><div class="text">Portfolio</div></div></a>
-      </div>
-      <div className="container-2 col-md-4">
-        <img src="email.jpeg" alt="resume"/>
-        <a href="/contact"><div className="overlay-2"><div class="text">Contact</div></div></a>      </div>
-      <div className="container-3 col-md-4">
-        <img src="resumeImage.jpeg" alt="resume"/>
-        <a href="/pcwebdevResume.pdf" download><div className="overlay-3"><div class="text">Resume</div></div></a>  </div></div>
+        </Col>
+      </Row>
+        <br/><br/>
+        <div className="row">
+          <div className="container-1 col-md-4">
+              <img src="portfolio.jpeg" alt="view"/>
+              <a href="/portfolio"><div className="overlay-1"><div className="text">Portfolio</div></div></a>
+          </div>
+          <div className="container-2 col-md-4">
+            <img src="email.jpeg" alt="resume"/>
+            <a href="/contact"><div className="overlay-2"><div className="text">Contact</div></div></a> 
+          </div>
+          <div className="container-3 col-md-4">
+            <img src="resumeImage.jpeg" alt="resume"/>
+            <a href="/pcwebdevResume.pdf" download><div className="overlay-3"><div className="text">Resume</div></div></a>  
+          </div>
+        </div>
     </Container>
   </div>
 );

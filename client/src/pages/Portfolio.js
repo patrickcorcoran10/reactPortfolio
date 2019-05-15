@@ -83,13 +83,13 @@ class Portfolio extends Component {
                     <div class="col-md-4">
                         <div class="card card-profile">
                             <div class="card-image">
-                                <img class="img" src="birthday.png" alt=""/>
-                                    <div class="card-caption"> Birthday Headlines</div>
+                                <img class="img" src="b2b.jpeg" alt=""/>
+                                    <div class="card-caption"> B2B Sales Qualifier</div>
                             </div>
                             <div class="table">
-                                <h6>HTML, CSS, JavaScript</h6>
-                                <p class="card-description"> Fun facts from your first day in history are revealed through this fun app and its links to the NYTimes historic API. </p>
-                                <a href="https://patrickcorcoran10.github.io/Project-1/"><button className="btn-info-2">V I E W</button></a> 
+                                <h6>ReactJs, Sequelize, NodeJs, Express, and ChartJS-2.</h6>
+                                <p class="card-description"> This ReactJs, MySQL, Express, NodeJs application helps qualify potiential business leads for the user. It takes information for potential B2B clients, calculates the increase in revenue, as well as return on investment and displays the information both numerically and graphically.</p>
+                                <a href="https://moorhouse.herokuapp.com/"><button className="btn-info-2">V I E W</button></a> 
 
                                 
                             </div>
