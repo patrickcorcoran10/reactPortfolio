@@ -42,9 +42,9 @@ class Portfolio extends Component {
                                     <div class="card-caption"> Burger's For Sale</div>
                             </div>
                             <div class="table">
-                                <h6>Handlebars</h6>
+                                <h6>ReactJs</h6>
                                 <p class="card-description"> Burger Board is a live updating burger list that allows the user to view, consume or create new burgers to put on the menu. </p>
-                                <a href="https://burger-board-pc.herokuapp.com/"><button className="btn-info-2">V I E W</button></a> 
+                                <a href="https://react-burgers.herokuapp.com/"><button className="btn-info-2">V I E W</button></a> 
                             </div>
                         </div>
                     </div>
