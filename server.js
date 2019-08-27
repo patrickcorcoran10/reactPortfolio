@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const PORT = process.env.PORT || 3001;
 const nodemailer = require('nodemailer');
 const app = express();
-
+// Used to get the Password from the .env file.
 require("dotenv").config();
 
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -50,8 +50,8 @@ if (process.env.NODE_ENV === "production") {
         let info = transporter.sendMail({
             from: "website@p-corcoran-portfolio.com",
             to: "patrickcorcoran10@gmail.com",
-            subject: "P Corcoran Portfolio Inquiry",
-            text: "req.body.message",
+            subject: "Portfolio Inqury from " + req.body.name,
+            text: req.body.message,
             html: htmlEmail
         })
 
