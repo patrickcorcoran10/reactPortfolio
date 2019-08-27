@@ -38,12 +38,15 @@ if (process.env.NODE_ENV === "production") {
             <p>${req.body.message}</p>
         `
         let transporter = nodemailer.createTransport({
-            host: "smtp.gmail.com",
+            // host: "smtp.gmail.com",
+            host: "smtp.sendgrid.net",
             port: 465,
             secure: true,
             auth: {
-                user: "p.corcoran.portfolio@gmail.com",
-                pass: process.env.PASS
+                user: "apikey",
+                pass: "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"
+                // user: "p.corcoran.portfolio@gmail.com",
+                // pass: process.env.PASS
             }
         })
 
