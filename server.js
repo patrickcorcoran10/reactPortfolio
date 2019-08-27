@@ -44,7 +44,7 @@ if (process.env.NODE_ENV === "production") {
             secure: true,
             auth: {
                 user: "apikey",
-                pass: "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"
+                pass: process.env.PASSWORD
                 // user: "p.corcoran.portfolio@gmail.com",
                 // pass: process.env.PASS
             }
