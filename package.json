@@ -2,9 +2,10 @@
   "name": "pc-portfolio",
   "version": "1.0.0",
   "description": "Portfolio for interested parties. ",
+  "proxy": "http://localhost:3001/",
   "main": "server.js",
   "dependencies": {
-    "@sendgrid/mail": "^6.3.1",
+    "@sendgrid/mail": "^6.4.0",
     "body-parser": "^1.18.3",
     "concurrently": "^3.6.1",
     "cors": "^2.8.5",
@@ -13,7 +14,8 @@
     "express-mailer": "^0.3.1",
     "if-env": "^1.0.4",
     "nodemailer": "^4.7.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "request": "^2.88.0"
   },
   "engines": {
     "node": "10.0.0",

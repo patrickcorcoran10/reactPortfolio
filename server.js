@@ -2,7 +2,9 @@ const express = require("express");
 const path = require("path");
 const bodyParser = require("body-parser");
 const PORT = process.env.PORT || 3001;
+// const request = require('request');
 const nodemailer = require('nodemailer');
+// const sgMail = require('@sendgrid/mail');
 const app = express();
 // Used to get the Password from the .env file.
 require("dotenv").config();
@@ -27,6 +29,15 @@ if (process.env.NODE_ENV === "production") {
 
   app.post('/submit', (req, res) => {
     console.log(req.body)
+    // sgMail.setApiKey(process.env.KEY);
+    // const msg = {
+    //   to: 'p.corcoran.portfolio@gmail.com',
+    //   from: req.body.email,
+    //   subject: 'Email From Portfolio Site',
+    //   text: req.body.message,
+    //   html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+    // };
+    // sgMail.send(msg);
     nodemailer.createTestAccount((err, account) => {
         const htmlEmail = `
             <h3>Contact Details</h3>
@@ -38,21 +49,21 @@ if (process.env.NODE_ENV === "production") {
             <p>${req.body.message}</p>
         `
         let transporter = nodemailer.createTransport({
-            // host: "smtp.gmail.com",
-            host: "smtp.sendgrid.net",
+            host: "smtp.gmail.com",
+            // host: "smtp.sendgrid.net",
             port: 465,
-            secure: true,
+            // secure: true,
             auth: {
-                user: "apikey",
-                pass: process.env.PASSWORD
-                // user: "p.corcoran.portfolio@gmail.com",
-                // pass: process.env.PASS
+                // user: "apikey",
+                // pass: process.env.KEY
+                user: "p.corcoran.portfolio@gmail.com",
+                pass: process.env.PASS
             }
         })
 
         let info = transporter.sendMail({
             from: "website@p-corcoran-portfolio.com",
-            to: "patrickcorcoran10@gmail.com",
+            to: "p.corcoran.portfolio@gmail.com",
             subject: "Portfolio Inqury from " + req.body.name,
             text: req.body.message,
             html: htmlEmail
@@ -63,6 +74,7 @@ if (process.env.NODE_ENV === "production") {
         console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info) )
         })
     })
+
 
   
   // Syncing our database and logging a message to the user upon success
