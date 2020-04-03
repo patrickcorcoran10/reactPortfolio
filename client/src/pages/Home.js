@@ -22,15 +22,16 @@ const About = () => (
             <h2>Welcome...</h2>
             <br />
             <p>
-              Blazing a path in the world of web development, Pat is excited to
-              bring his coding abilities, well-rounded perspective, and strong
-              team-building expertise to table for an exciting career
-              opportunity.
+              I'd like to introduce myself. I'm Pat Corcoran, a junior to
+              mid-level full-stack web developer. I have a varied background
+              including governmental, political campaigning, non-profit and
+              for-profit work. I'm currently working on projects in the
+              development world and am enthusiastic about new opportunities and
+              ways to learn.
             </p>
             <p>
-              This site is a showcase of some of the projects I've built either
-              through the Northwestern University Full-Stack course or through
-              my own web development interests.{" "}
+              This site is a showcase of some of the projects I've built in the
+              last couple years.{" "}
             </p>
             <p>
               Please have a look around and use the comment page to reach me if
