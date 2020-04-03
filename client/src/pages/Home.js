@@ -22,7 +22,7 @@ const About = () => (
             <h2>Welcome...</h2>
             <br />
             <p>
-              I'd like to introduce myself. I'm Pat Corcoran, a junior to
+              First, let me introduce myself, I'm Pat Corcoran, a junior to
               mid-level full-stack web developer. I have a varied background
               including governmental, political campaigning, non-profit and
               for-profit work. I'm currently working on projects in the
