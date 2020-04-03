@@ -26,8 +26,8 @@ const About = () => (
               mid-level full-stack web developer. I have a varied background
               including governmental, political campaigning, non-profit and
               for-profit work. I'm currently working on projects in the
-              development world and am enthusiastic about new opportunities and
-              ways to learn.
+              development world and I'm enthusiastic about new opportunities to
+              learn and grow.
             </p>
             <p>
               This site is a showcase of some of the projects I've built in the
