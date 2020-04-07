@@ -99,16 +99,17 @@ class Portfolio extends Component {
               <div class="col-md-4">
                 <div class="card card-profile">
                   <div class="card-image">
-                    <img class="img" src="shoppingCart.png" alt="" />
-                    <div class="card-caption">Bamazon</div>
+                    <img class="img" src="worm.jpg" alt="" />
+                    <div class="card-caption">Worm Game</div>
                   </div>
                   <div class="table">
-                    <h6>MySQL w/ Node.JS</h6>
+                    <h6>p5.js</h6>
                     <p class="card-description">
-                      Online shop allows customers to buy products, supervisors
-                      to manage inventory & Sales Dept. to track sales metrics.{" "}
+                      This simple browswer game uses jQuery, NodeJs, Express,
+                      Sequelize, MySQL and P5.js to create the classic worm game
+                      from algebra class.{" "}
                     </p>
-                    <a href="https://patrickcorcoran10.github.io/bamazon/">
+                    <a href="https://worm-game-pc.herokuapp.com">
                       <button class="btn-info-2">V I E W</button>
                     </a>
                   </div>
